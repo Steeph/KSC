@@ -1,0 +1,41 @@
+Un site autour d'un jeu :
+-> Description & Présentation
+-> Creation de compte - Gestion Bundle
+-> Securité
+-> Forum 
+-> Jeu
+-> Espace joueur (Profil, Personnage)
+
+
+Etape 1 : 
+Architecture du site
+
+Etape 2 : 
+Fonctionnalité ( Compte + Forum minimaliste)
+
+Etape 3 :
+Le jeu
+
+Etape 4 :
+Améliorer le design
+
+Etape 5 :
+Améliorer l'architecture + compléter
+
+Etape 6 :
+Finir forum
+
+Etapes 7 :
+Fonctionnalités spécifiques 
+	-> Auto-login
+	-> Responsive
+	->
+
+Etape 8 :
+Finaliser le jeu
+
+
+
+Le jeu :
+
+
