@@ -29,7 +29,7 @@ Etapes 7 :
 Fonctionnalités spécifiques 
 	-> Auto-login
 	-> Responsive
-	->
+	->[ à ajouter]
 
 Etape 8 :
 Finaliser le jeu

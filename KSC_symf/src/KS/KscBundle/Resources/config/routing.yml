@@ -1,0 +1,3 @@
+ks_ksc_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: KSKscBundle:Default:index }
