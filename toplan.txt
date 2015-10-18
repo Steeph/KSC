@@ -29,7 +29,8 @@ Etapes 7 :
 Fonctionnalités spécifiques 
 	-> Auto-login
 	-> Responsive
-	->[ à ajouter]
+	->[à ajouter]
+	-> Jeu plein écran
 
 Etape 8 :
 Finaliser le jeu
@@ -37,5 +38,19 @@ Finaliser le jeu
 
 
 Le jeu :
+	Mecaniques
+		Création d'un personnage
+		Aventure (type Livre dont vous êtes sur le héros) (ambiance : texte + image + Musique)
+		Combat
+		actions par zone (explorer, récolter, Parler, échanger, attendre, se cacher)
 
 
+	Objectif 
+		faire la quête principale qui amenera de la zone 1 à la zone 10 (ex)
+
+	Interface 
+		Inventaire
+		Stats
+		Menu
+		Gameplay
+		Quêtes
