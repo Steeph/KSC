@@ -10,22 +10,17 @@ class DisplayController extends Controller
 {
     public function indexAction()
     {
-    	$index = $this->get('templating')->render('KSBundle:Default:index.html.twig');
-    	return new Response($index);
-
+    	return $this->render('KSBundle:Default:index.html.twig');
     }
 
     public function playAction()
     {
-    	$play = $this->get('templating')->render('KSBundle:Default:play.html.twig');
-    	return new Response($play);
-
+    	return $this->render('KSBundle:Default:play.html.twig');
     }
 
     public function creationAction()
     {
-    	$creation = $this->get('templating')->render('KSBundle:Default:play.html.twig');
-    	return new Response($creation);
+    	return $this->render('KSBundle:Default:creation.html.twig');
     }
 
     public function connectionAction()

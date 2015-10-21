@@ -1,3 +1,26 @@
 ks_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: KSBundle:Default:index }
+    path: /
+    defaults: { _controller: KSBundle:Display:index }
+
+ks_gameplay:
+    path:     /play
+    defaults: { _controller: KSBundle:Display:play }
+
+ks_creation:
+    path:     /creation
+    defaults: { _controller: KSBundle:Display:creation }
+
+ks_connection:
+    path:    /connection
+    defaults: { _controller: KSBundle:Display:connection }
+
+ks_profil:
+   path:     /profil
+   defaults: { _controller: KSBundle:Display:profil }
+
+ks_contact:
+   path:     /contact
+   defaults: { _controller: KSBundle:Display:contact }
+
+
+
