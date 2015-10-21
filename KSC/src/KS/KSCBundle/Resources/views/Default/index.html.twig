@@ -1,26 +1,7 @@
-Salut toi !
+{% extends "KSBundle::layout.html.twig" %}
 
- Je suppose que ça met pas d'espace 
+{% block title %} Ajout d'auteur - {{ parent() }} {% endblock %}
 
-
-
-
-
-
-
- mais on mettra bientôt du contenu
-<br>
-
-<ul>
-	<li> <a href="{{ path('ks_homepage')}}">index </a> </li>
-	<li> <a href="{{ path('ks_gameplay')}}">play </a> </li>
-	<li> <a href="{{ path('ks_creation')}}">creation </a> </li>
-	<li> <a href="{{ path('ks_connection')}}">connection </a> </li>
-	<li> <a href="{{ path('ks_profil')}}">profil </a> </li>
-	<li> <a href="{{ path('ks_contact')}}">contact </a> </li>
-
-</ul>
-  
-   
-    
-     
+{% block body %}
+Salut toi
+{% endblock %}

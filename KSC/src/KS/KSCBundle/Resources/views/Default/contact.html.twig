@@ -1,11 +1,7 @@
+{% extends "KSBundle::layout.html.twig" %}
+
+{% block title %} Ajout d'auteur - {{ parent() }} {% endblock %}
+
+{% block body %}
 Des suggestions, une question, un probleme ?
-
-<ul>
-	<li> <a href="{{ path('ks_homepage')}}">index </a> </li>
-	<li> <a href="{{ path('ks_gameplay')}}">play </a> </li>
-	<li> <a href="{{ path('ks_creation')}}">creation </a> </li>
-	<li> <a href="{{ path('ks_connection')}}">connection </a> </li>
-	<li> <a href="{{ path('ks_profil')}}">profil </a> </li>
-	<li> <a href="{{ path('ks_contact')}}">contact </a> </li>
-
-</ul>
+{% endblock %}
