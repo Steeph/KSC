@@ -1,0 +1,50 @@
+KSC Games : 
+###########
+
+Système de zone :
+	- PNJ : Hostile / Neutre / Allié
+	- Description Texte
+	- Image Background d'ambiance
+	- explorable : découverte de point d'intérêt / Item lootable
+	- Sous-zone : Bâtiment / Passage-secrêt
+
+Combat :
+	- Tour par tour
+	- Système initiative
+	- Actions : Attaque / Compétence / Items / Fuite
+	- Gain d'Xp et loot à la fin du combat
+
+Système d'Echange / Vente :
+	- Marchand
+	- Quêtes -> récompense
+
+Système de Guilde :
+	- Quêtes  : Source d'income
+	- Apprentissage de compétence
+	- Sous-branche: Guilde spécialisé / Guilde secrète
+
+Système de Village :
+	- Développement du village
+	- Recruter des villageois
+	- Libérer les zones annexes
+	- Construction de bâtiment
+
+Personnage : 
+	- Stats : Dégât / Magie / Vie
+	- Compétences : achetable ou gagnable : quêtes / Marchand
+	- Equipement : Arme / Armure / Collier ...
+	- Passif : ...
+
+------------------------------------------------------------
+
+Etat de base :
+	- Enfant du chef du village
+	- Village attaqué, villageois blessés
+	- Personnage désarmé
+	- Expédition requise pour demander de l'aide
+
+Objectif : 
+	- Dégager l'entrée du village
+	- Aller à la ville d'à côté pour recruter un médecin
+	- Faire level up le personnage
+	- Développer le village en Cité
