@@ -5,6 +5,7 @@ namespace KS\GameBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\RedirectResponse;
+use KS\GameBundle\Entity\User;
 
 class DisplayController extends Controller
 {
@@ -38,6 +39,15 @@ class DisplayController extends Controller
     	return $this->render('KSGameBundle:Default:contact.html.twig');
     	
     }
+
+   /* public function addAction(Request $request)
+    {
+        $user = new User;
+        $user->setUsername('Steven');
+        $user->setPassword('123');
+        $user->setRoles('membre');
+    }
+    */
 
 
 }
