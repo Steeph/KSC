@@ -1,3 +1,0 @@
-KS:
-    resource: "@KSBundle/Resources/config/routing.yml"
-    prefix:     /
