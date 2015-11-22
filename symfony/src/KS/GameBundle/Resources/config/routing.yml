@@ -1,0 +1,26 @@
+ks_homepage:
+    path: /
+    defaults: { _controller: KSGameBundle:Display:index }
+
+ks_gameplay:
+    path:     /play
+    defaults: { _controller: KSGameBundle:Display:play }
+
+ks_creation:
+    path:     /creation
+    defaults: { _controller: KSGameBundle:Display:creation }
+
+ks_connection:
+    path:    /connection
+    defaults: { _controller: KSGameBundle:Display:connection }
+
+ks_profil:
+   path:     /profil
+   defaults: { _controller: KSGameBundle:Display:profil }
+
+ks_contact:
+   path:     /contact
+   defaults: { _controller: KSGameBundle:Display:contact }
+
+
+

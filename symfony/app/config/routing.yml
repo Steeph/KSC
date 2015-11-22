@@ -1,0 +1,3 @@
+ks_game:
+    resource: "@KSGameBundle/Resources/config/routing.yml"
+    prefix:   /
