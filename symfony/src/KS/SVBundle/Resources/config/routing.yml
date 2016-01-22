@@ -1,0 +1,16 @@
+kssv_home:
+    path:     /
+    defaults: { _controller: KSSVBundle:Default:index }
+
+kssv_competences:
+    path:     /competences
+    defaults: { _controller: KSSVBundle:Default:competences }
+
+kssv_projet:
+    path:     /projet
+    defaults: { _controller: KSSVBundle:Default:projet }
+
+kssv_contact:
+    path:     /contact
+    defaults: { _controller: KSSVBundle:Default:index }
+

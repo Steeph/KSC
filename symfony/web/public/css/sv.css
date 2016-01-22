@@ -1,0 +1,21 @@
+
+.navbar li
+{
+	float: left;
+	line-height: 100%;
+	margin-left: 10%;
+	display: inline-block;
+	height: 12px;
+	line-height: 12px;
+}
+
+.navbar ul {
+	max-height: 12px;
+}
+.clear {
+	clear:both;
+}
+
+.container-fluid {
+	max-height: 12px;
+}
