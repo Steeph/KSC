@@ -15,24 +15,33 @@
 	<h3>Etudiant M1 en E-Business à EDC Paris & EfreiTech</h3>
   <span> 
 </div>
-<div class="container">
 
-<ul class="nav .col-xs-6 .col-sm-3 ">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+  
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="navbar" id="navbar">
+      <ul class="nav">
         <li class="{% block home %} {% endblock %}"><a href="{{ path('kssv_home')}}"> Home<span class="sr-only">(current)</span></a></li>
         <li class="{% block projet %} {% endblock %}"><a href="{{ path('kssv_projet')}}">Projet</a></li>
         <li class="{% block github %} {% endblock %}"><a href="https://github.com/Steeph/KSC" target="blank">Github</a></li>
         <li class="{% block linkedin %} {% endblock %}"><a href="https://www.linkedin.com/in/stephanevillagordo" target="blank">LinkedIn</a></li>
         <li class="{% block contact %} {% endblock %}"><a href="{{ path('kssv_contact')}}">Contacter moi</a></li>
-</ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-<div class="content">
 
-  <hr>
-  
+
+
+
 	{% block body %}
 
 	{% endblock %}
-</div>
-</div>
+
 </body>
 </html>

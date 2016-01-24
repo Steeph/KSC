@@ -1,21 +1,89 @@
 
-.navbar li
-{
-	float: left;
-	line-height: 100%;
-	margin-left: 10%;
-	display: inline-block;
-	height: 12px;
-	line-height: 12px;
+body {
+/* background: #022530; */
+	background: #252830;
+	color:white;
 }
 
-.navbar ul {
-	max-height: 12px;
+hr {
+	margin-bottom: 30px;
+	border-top: 1px solid #434857;
 }
+
 .clear {
 	clear:both;
 }
 
-.container-fluid {
-	max-height: 12px;
+
+.nav {
+	width: 120px;
+	height: 100%;
+	display:inline-block;
+	float:left;
+	margin-top: 40px;
+}
+
+.nav a {
+	color: #fff;
+}
+
+.active a {
+	background: #86ABB8;
+	border-radius: 3px;
+	color: black;
+}
+
+.nav a:hover {
+	border-radius: 3px;
+	background: black;
+}
+
+.header {
+	text-align: center;
+	margin: 1%;
+}
+
+.content-box{
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 5px 5px;
+	display: inline-block;
+	float:right;
+}
+
+.content {
+	width: 85%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 5px 5px;
+	display: inline-block;
+	float:right;
+}
+
+
+.title {
+	color: #4AEEFB;
+	text-align: center;
+}
+
+
+.skill {
+	float:left;
+	margin-right: 5%;
+	display:inline;
+}
+
+.skill h4 {
+	text-align: center;
+}
+
+.formation ul {
+	
+	line-height: 25px;
+}
+
+.loisir span {
+	text-align: center;
+	margin: 0 6%;
+	line-height: 15px;
 }
