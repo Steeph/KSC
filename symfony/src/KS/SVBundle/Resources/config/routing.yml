@@ -12,5 +12,5 @@ kssv_projet:
 
 kssv_contact:
     path:     /contact
-    defaults: { _controller: KSSVBundle:Default:index }
+    defaults: { _controller: KSSVBundle:Default:contact }
 

@@ -3,36 +3,63 @@
 <head>
 	<title>{% block title %} {% endblock %}</title>
 	<meta charset="utf-8">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-<link rel="stylesheet" href="{{ asset('public/css/sv.css') }}" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="{{ asset('public/css/sv.css') }}" />
 
 </head>
 <body>
 
-<div class="header">
-  <img src="{{ asset('public/img/moi.png') }}">
-  <h2> Villagordo Stephane </h2>
-	<h3>Etudiant M1 en E-Business à EDC Paris & EfreiTech</h3>
-  <span> 
-</div>
-<div class="container">
+  <div class="header">
+    <img src="{{ asset('public/img/moi.png') }}">
+    <h2> Villagordo Stephane </h2>
+    <h3>Etudiant M1 en E-Business à EDC Paris & EfreiTech</h3>
+  </div>
 
-<ul class="nav .col-xs-6 .col-sm-3 ">
-        <li class="{% block home %} {% endblock %}"><a href="{{ path('kssv_home')}}"> Home<span class="sr-only">(current)</span></a></li>
-        <li class="{% block projet %} {% endblock %}"><a href="{{ path('kssv_projet')}}">Projet</a></li>
-        <li class="{% block github %} {% endblock %}"><a href="https://github.com/Steeph/KSC" target="blank">Github</a></li>
-        <li class="{% block linkedin %} {% endblock %}"><a href="https://www.linkedin.com/in/stephanevillagordo" target="blank">LinkedIn</a></li>
-        <li class="{% block contact %} {% endblock %}"><a href="{{ path('kssv_contact')}}">Contacter moi</a></li>
-</ul>
+  <div class="navbar">
+    <div class="nav-link">
+      <a href="{{ path('kssv_home') }}" class="btn"><img src="{{ asset('public/img/home.png') }}" width="35" height="35"> </a>
+      <a href="{{ path('kssv_projet') }}" class="btn" ><img src="{{ asset('public/img/changelog.png') }}" width="35" height="35"></a>
+      <a href="https://www.linkedin.com/in/stephanevillagordo" target="blank" class="btn" ><img src="{{ asset('public/img/linkedin.png') }}" width="35" height="35"></a>
+      <a href="https://github.com/Steeph/KSC" target="blank" class="btn" ><img src="{{ asset('public/img/github.png') }}" width="35" height="35"> </a>
+      <a href="{{ path('kssv_contact') }}" class="btn"><img src="{{ asset('public/img/mail.png') }}" width="35" height="35"></a>
 
-<div class="content">
+    </div>
 
-  <hr>
-  
-	{% block body %}
+    <div class="nav-info">
+      <a tabindex="0" class="btn" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="07 86 49 55 85" ><img src="{{ asset('public/img/phone.png') }}" width="17,72" height="35,43" /></a>
+      <a href="{{ asset('public/cv/cv.pdf') }} class="btn" " download="CV S Villagordo"><img src="{{ asset('public/img/dl.png') }}" width="35" height="35"></a>
+    </div>
 
-	{% endblock %}
-</div>
+  </div>
+  <div class="container">
+<!--
+    <ul class="nav .col-xs-6 .col-sm-3 ">
+      <li class="{% block home %} {% endblock %}"><a href="{{ path('kssv_home') }}"> Home<span class="sr-only">(current)</span></a></li>
+      <li class="{% block projet %} {% endblock %}"><a href="{{ path('kssv_projet') }}">Projet</a></li>
+      <li class="{% block github %} {% endblock %}"><a href="https://github.com/Steeph/KSC" target="blank">Github</a></li>
+      <li class="{% block linkedin %} {% endblock %}"><a href="https://www.linkedin.com/in/stephanevillagordo" target="blank">LinkedIn</a></li>
+      <li class="{% block contact %} {% endblock %}"><a href="{{ path('kssv_contact') }}">Contact</a></li>
+    </ul>
+
+    <div class="content">
+
+    -->
+
+    {% block body %}
+
+    {% endblock %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="{{ asset('public/bootstrap/js/bootstrap.min.js') }}"> </script>
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover({html:true})
+      })
+
+
+    </script>
+
+  </div>
 </div>
 </body>
 </html>

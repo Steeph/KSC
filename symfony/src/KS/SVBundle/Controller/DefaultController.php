@@ -20,4 +20,8 @@ class DefaultController extends Controller
     {
     	return $this->render('KSSVBundle:Default:projet.html.twig');
     }
+
+    public function contactAction() {
+        return $this->render('KSSVBundle:Default:contact.html.twig');
+    }
 }
